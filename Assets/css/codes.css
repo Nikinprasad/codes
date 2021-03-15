@@ -1,0 +1,97 @@
+body{
+    background-color: #222831;
+	z-index:-99
+    
+    }
+
+.container{
+    border: none;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 50%;
+    padding: 50px;
+	margin:100px auto;
+    background-color: #30475e;
+    text-align: center;
+    filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.161));
+	z-index: 999;
+    }
+
+    #particles-js {
+    height: 100%;
+    width: 100%;
+    margin-top: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    }
+
+
+.container h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: bold;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            position: relative;
+            color: aliceblue;
+        }
+        ::placeholder{
+            text-align: center;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            margin: 8px 0;
+            width: 80%;
+            padding: 12px 0;
+            box-sizing: border-box;
+            border: 4px solid rgb(18, 219, 0);
+            -webkit-transition: 0.5s;
+            transition: 0.5s;
+            outline: none;
+            border-radius: 10px;
+            background-color: #e8e8e8;
+            text-align: center;
+        }
+
+        .container p{
+            font-size: larger;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input:focus{
+            border: 4px solid rgb(248, 82, 96);
+            background-color: whitesmoke;
+            text-align: center;
+        }
+
+        button{
+            border: none;
+            background-color: rgb(0, 162, 255);
+            padding: 14px 24px;
+            color: whitesmoke;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 10px;
+            max-width: 100%;
+            text-align: center;
+        }
+
+@media only screen and (max-width:768px) {
+    button{
+        max-width: 100%;
+    }
+    .container{
+        border: none;
+        box-sizing: border-box;
+        border-radius: 10px;
+        width: 100%;
+        padding: none;
+        /* margin: 100px auto; */
+        background-color: #30475e;
+        position: relative;
+        text-align: center;
+        filter: drop-shadow(10px 20px 10px rgba(0, 0, 0, 0.161));
+        }
+
+}
