@@ -3,7 +3,9 @@ body{
 	z-index:-99
     
     }
-
+p {
+text-color: white;
+}
 .container{
     border: none;
     box-sizing: border-box;
